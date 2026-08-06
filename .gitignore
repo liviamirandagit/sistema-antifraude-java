@@ -1,0 +1,10 @@
+# Compilados do Java
+*.class
+out/
+
+# Configurações da IDE (IntelliJ)
+.idea/
+*.iml
+
+# Arquivo com credenciais locais
+config.properties
