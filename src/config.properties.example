@@ -1,0 +1,3 @@
+db.url=jdbc:mysql://localhost:3306/sistema_antifraude
+db.user=seu_usuario
+db.password=sua_senhas
