@@ -10,12 +10,12 @@
 
 ---
 
-## 📌 Sobre o Projeto & Abordagem Comparativa
+## || Sobre o Projeto & Abordagem Comparativa ||
 Este projeto faz parte de um estudo prático comparativo entre **Java** e **Python** no desenvolvimento de um **Motor de Risco e Análise Antifraude para Transações Financeiras**. 
 
 O objetivo principal foi construir uma aplicação funcional capaz de interceptar transações, processar regras de validação em tempo real e armazenar o histórico completo (com status de aprovação, suspeita ou rejeição) no banco de dados **MySQL**.
 
-> 💡 **Esta é a versão implementada em Java.** Para conferir a versão idêntica construída em Python, acesse o repositório paralelo: **[sistema-antifraude-python](https://github.com/liviamirandagit/sistema-antifraude-python)**.
+>  **Esta é a versão implementada em Java.** Para conferir a versão idêntica construída em Python, acesse o repositório paralelo: **[sistema-antifraude-python](https://github.com/liviamirandagit/sistema-antifraude-python)**.
 
 ---
 
@@ -32,7 +32,7 @@ O objetivo principal foi construir uma aplicação funcional capaz de intercepta
 
 ---
 
-## 🎯 Por que Java nesta Arquitetura?
+## >> Por que Java nesta Arquitetura?
 Na análise transacional e no setor bancário, a robustez, a tipagem forte e o controle rigoroso de exceções do **Java** oferecem uma estrutura ideal para o motor de risco central. 
 
 * **IDE e Produtividade:** Desenvolvido no **IntelliJ IDEA**, garantindo refatoração segura, controle estrito de tipos e gerenciamento de dependências.
@@ -41,7 +41,7 @@ Na análise transacional e no setor bancário, a robustez, a tipagem forte e o c
 
 ---
 
-## 📐 Fluxo de Validação de Risco
+##  Fluxo de Validação de Risco
 
 ```text
 ┌─────────────────────────┐      ┌─────────────────────────┐      ┌─────────────────────────┐
