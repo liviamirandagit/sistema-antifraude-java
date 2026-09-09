@@ -10,7 +10,7 @@
 
 ---
 
-## || Sobre o Projeto & Abordagem Comparativa ||
+## || Visão geral ||
 Este projeto faz parte de um estudo prático comparativo entre **Java** e **Python** no desenvolvimento de um **Motor de Risco e Análise Antifraude para Transações Financeiras**. 
 
 O objetivo principal foi construir uma aplicação funcional capaz de interceptar transações, processar regras de validação em tempo real e armazenar o histórico completo (com status de aprovação, suspeita ou rejeição) no banco de dados **MySQL**.
