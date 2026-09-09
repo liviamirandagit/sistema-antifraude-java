@@ -1,19 +1,55 @@
-# Sistema Antifraude de Transações (Java)
+# 🛡️ Sistema Antifraude para Transações Financeiras (Versão Java)
+### ☕ Engenharia de Software, Validação em Tempo Real e Persistência de Dados
 
-Projeto desenvolvido em Java para análise de risco em transações financeiras e integração com banco de dados MySQL via JDBC.
+<p align="center">
+  <img src="https://img.shields.io/badge/Java-JDK_21%2B-ED8B00?style=for-the-badge&logo=java&logoColor=white" />
+  <img src="https://img.shields.io/badge/MySQL-8.0%2B-4479A1?style=for-the-badge&logo=mysql&logoColor=white" />
+  <img src="https://img.shields.io/badge/JDBC-Connector-007396?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/IDE-IntelliJ_IDEA-000000?style=for-the-badge&logo=intellijidea&logoColor=white" />
+</p>
 
-## Tecnologias Utilizadas
-* Linguagem: Java (JDK 26)
-* Driver JDBC: MySQL Connector/J
-* IDE: IntelliJ IDEA
-* Banco de Dados: MySQL
+---
 
-## Estrutura do Repositório
-* src/: Código-fonte do projeto (Main, regras de negócio e modelos).
-* sql/: Scripts de criação e estrutura do banco de dados (schema.sql).
+## 📌 Sobre o Projeto & Abordagem Comparativa
+Este projeto faz parte de um estudo prático comparativo entre **Java** e **Python** no desenvolvimento de um **Motor de Risco e Análise Antifraude para Transações Financeiras**. 
 
-## Como Executar
-1. Execute o script sql/schema.sql no banco MySQL.
-2. Copie o arquivo src/config.properties.example para src/config.properties e preencha com suas credenciais do banco local.
-3. Certifique-se de que a biblioteca mysql-connector-j está adicionada ao classpath do projeto no IntelliJ.
-4. Execute a classe Main.java.
+O objetivo principal foi construir uma aplicação funcional capaz de interceptar transações, processar regras de validação em tempo real e armazenar o histórico completo (com status de aprovação, suspeita ou rejeição) no banco de dados **MySQL**.
+
+> 💡 **Esta é a versão implementada em Java.** Para conferir a versão idêntica construída em Python, acesse o repositório paralelo: **[sistema-antifraude-python](https://github.com/liviamirandagit/sistema-antifraude-python)**.
+
+---
+
+## 📸 Demonstração da Execução
+
+<img width="1392" height="1600" alt="WhatsApp Image 2026-08-06 at 17 29 19" src="https://github.com/user-attachments/assets/56ff80ca-a604-4987-b4ab-77aaf6b22012" />
+<img width="1600" height="923" alt="WhatsApp Image 2026-08-06 at 17 35 22" src="https://github.com/user-attachments/assets/d2173fa2-0a8b-4b60-9811-0ce9327389e7" />
+
+
+<p align="center">
+  <img src="COLE_O_LINK_DA_SUA_IMAGEM_AQUI" alt="Execução do Sistema Antifraude em Java" width="100%">
+</p>
+
+---
+
+## 🎯 Por que Java nesta Arquitetura?
+Na análise transacional e no setor bancário, a robustez, a tipagem forte e o controle rigoroso de exceções do **Java** oferecem uma estrutura ideal para o motor de risco central. 
+
+* **IDE e Produtividade:** Desenvolvido no **IntelliJ IDEA**, garantindo refatoração segura, controle estrito de tipos e gerenciamento de dependências.
+* **Modelo Relacional & Persistência:** Integração via JDBC com MySQL, aplicando conceitos avançados de modelagem e consultas baseados nas melhores práticas de bancagem de dados.
+* **Tratamento de Exceções:** Arquitetura focada em isolamento de falhas e tratamento de concorrência transacional.
+
+---
+
+## 📐 Fluxo de Validação de Risco
+
+```text
+┌─────────────────────────┐      ┌─────────────────────────┐      ┌─────────────────────────┐
+│  1. ENTRADA DA TRANSAÇÃO│ ───► │ 2. MOTOR DE REGRAS JAVA │ ───► │  3. CÁLCULO DE SCORE    │
+│   (Payload / Payload)   │      │ (Validações em Tempo Real)│      │  (Análise de Padrão)    │
+└─────────────────────────┘      └─────────────────────────┘      └─────────────────────────┘
+                                                                               │
+                                                                               ▼
+┌─────────────────────────┐                                       ┌─────────────────────────┐
+│ 5. HISTÓRICO NO MYSQL   │ ◄──────────────────────────────────── │ 4. DECISÃO TRANSAIONAL  │
+│ (Persistência com Status)│                                       │ (Aprovação ou Bloqueio) │
+└─────────────────────────┘                                       └─────────────────────────┘<img width="1392" height="1600" alt="WhatsApp Image 2026-08-06 at 17 29 19" src="https://github.com/user-attachments/assets/c5dfe998-db1e-46f9-8e58-7b8a2377b9ae" />
