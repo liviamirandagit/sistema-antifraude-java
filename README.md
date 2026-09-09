@@ -19,10 +19,11 @@ O objetivo principal foi construir uma aplicação funcional capaz de intercepta
 
 ---
 
-## 📸 Demonstração da Execução
+## 📸 
 
 <img width="1392" height="1600" alt="WhatsApp Image 2026-08-06 at 17 29 19" src="https://github.com/user-attachments/assets/56ff80ca-a604-4987-b4ab-77aaf6b22012" />
 <img width="1600" height="923" alt="WhatsApp Image 2026-08-06 at 17 35 22" src="https://github.com/user-attachments/assets/d2173fa2-0a8b-4b60-9811-0ce9327389e7" />
+<img width="1801" height="630" alt="Captura de tela de 2026-08-06 17-32-09" src="https://github.com/user-attachments/assets/8ec6b43e-8730-4c8c-86bd-f6dc58b95d54" />
 
 
 <p align="center">
