@@ -16,10 +16,7 @@ Este projeto faz parte de um estudo prático comparativo entre **Java** e **Pyth
 O objetivo principal foi construir uma aplicação funcional capaz de interceptar transações, processar regras de validação em tempo real e armazenar o histórico completo (com status de aprovação, suspeita ou rejeição) no banco de dados **MySQL**.
 
 >  **Esta é a versão implementada em Java.** Para conferir a versão idêntica construída em Python, acesse o repositório paralelo: **[sistema-antifraude-python](https://github.com/liviamirandagit/sistema-antifraude-python)**.
-
 ---
-
-## 📸 
 
 <img width="1392" height="1600" alt="WhatsApp Image 2026-08-06 at 17 29 19" src="https://github.com/user-attachments/assets/56ff80ca-a604-4987-b4ab-77aaf6b22012" />
 <img width="1600" height="923" alt="WhatsApp Image 2026-08-06 at 17 35 22" src="https://github.com/user-attachments/assets/d2173fa2-0a8b-4b60-9811-0ce9327389e7" />
