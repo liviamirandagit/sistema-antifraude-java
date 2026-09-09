@@ -1,5 +1,5 @@
-# 🛡️ Sistema Antifraude para Transações Financeiras (Versão Java)
-### ☕ Engenharia de Software, Validação em Tempo Real e Persistência de Dados
+# ♨ Sistema Antifraude para Transações Financeiras (Versão Java)
+###  Engenharia de Software, Validação em Tempo Real e Persistência de Dados
 
 <p align="center">
   <img src="https://img.shields.io/badge/Java-JDK_21%2B-ED8B00?style=for-the-badge&logo=java&logoColor=white" />
