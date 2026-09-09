@@ -1,5 +1,5 @@
 # ♨ Sistema Antifraude para Transações Financeiras (Versão Java)
-###  Engenharia de Software, Validação em Tempo Real e Persistência de Dados
+### -> Engenharia de Software, Validação em Tempo Real e Persistência de Dados
 
 <p align="center">
   <img src="https://img.shields.io/badge/Java-JDK_21%2B-ED8B00?style=for-the-badge&logo=java&logoColor=white" />
@@ -10,7 +10,7 @@
 
 ---
 
-## || Visão geral ||
+## || Visão Geral ||
 Este projeto faz parte de um estudo prático comparativo entre **Java** e **Python** no desenvolvimento de um **Motor de Risco e Análise Antifraude para Transações Financeiras**. 
 
 O objetivo principal foi construir uma aplicação funcional capaz de interceptar transações, processar regras de validação em tempo real e armazenar o histórico completo (com status de aprovação, suspeita ou rejeição) no banco de dados **MySQL**.
